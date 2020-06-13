@@ -1,0 +1,298 @@
+@import url("../css/fonts.css");
+html,body{
+	margin:0%;
+	box-sizing: border-box;
+	overflow-x:hidden;
+}
+
+:root{
+	/*   theme colors   */
+	--text-grey:#3f4954;
+	--text-light:#686666da;
+	--bg-color:#0f0f0f;
+	--white:#ffffff;
+	--midnight:#104f55;
+
+	/*gradient color */
+	--sky: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+
+
+	/*  theme font-family */
+	--Abel:'Abel',cursive;
+	--Allan:'Allan',cursive;
+	--Anton:'Anton',cursive;
+	--Cabin_Sketch:'Cabin_Sketch',cursive;
+	--Cookie:'Cookie',cursive;
+	--Dancing_Script:'Dancing_Script',cursive;
+	--Fredericka_the_Great:'Fredericka_the_Great',cursive;
+	--Great_Vibes:'Great_Vibes',cursive;
+	--Indie_Flower:'Indie_Flower',cursive;
+	--Josefin_Sans:'Josefin_Sans',cursive;
+	--Lakki_Reddy:'Lakki_Reddy',cursive;
+	--Liu_Jain_Mao_Cao:'Liu_Jian_Mao_Cao',cursive;
+	--Lavvic:'Lavvic',cursive;
+}
+
+
+
+/*............global classes.......................*/
+
+a{
+	text-decoration:none;
+	color:var(--text-gray);
+ }
+
+.flex-row{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+
+ul{
+	list-style-type:none;
+}
+
+h1{
+	font-family:var(--Josefin_Sans);
+	font-size: 2.5rem;
+}
+
+h2{
+	font-family:var(--Lavvic);
+}
+
+h3{
+	font-family:var(--Able);
+	font-size:1.3rem;
+}
+
+button.btn{
+	border:none;
+	border-radius: 2rem;
+	padding:1rem 3rem;
+	font-size:1rem;
+	font-family:var(--Lavvic);
+	cursor: pointer;
+}
+
+span{
+	font-family: var(--Abel);
+}
+
+.container{
+	margin:0 5vw;
+}
+
+/*.........global classes.....................*/
+
+
+
+/*...................navbar...................*/
+
+.nav{
+	background:white;
+	padding:0 2rem;
+	height: 0rem;
+	min-height:10vh;
+	overflow:hidden;
+	transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{
+	justify-content:space-between;
+}
+
+.nav .toggle-collapse{
+	position:absolute ;
+	top:0%;
+	width:70%;
+	cursor:pointer;
+	display:none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+	display:flex;
+	justify-content:flex-end;
+	padding:1.7rem 0;
+}
+
+
+.nav .toggle-collapse .toggle-icons i{
+	font-size: 1.4rem;
+	color:var(--text-gray);
+}
+
+.collapse{
+	height:30rem;
+}
+
+.nav .nav-items{
+	display: flex;
+	margin:0;
+}
+
+.nav .nav-items .nav-link{
+	padding:1.6rem 1rem;
+	font-size:1.1rem;
+	position:relative;
+	font-family:var(--Able);
+	font-size:1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+	background-color:var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+	color:var(--white);
+}
+
+
+
+
+.nav .nav-brand  a{
+	font-size: 1.6rem;
+	padding: 1rem 0;
+	display:block;
+	font-family:var(--Cookie);
+	font-size:1.6rem;
+}
+
+.nav .social{
+	padding: 1.4rem 0;
+
+}
+
+.nav .social i{
+	padding:0.2rem;
+}
+
+.nav .social i:hover{
+	color:#f99185;
+}
+
+
+/*........x...........navbar.......x............*/
+
+/*-------------Main Content-------------*/
+/*---------------Site Title-------------*/
+main .site-title{
+	background:url('../assets/web5.jpg');
+	background-size:cover;
+	height:110vh;
+	display:flex;
+	justify-content: center;
+}
+
+main .site-title .site-background{
+	padding-top:10rem;
+	text-align: center;
+	color: var(--white);
+}
+
+main .site-title h1,h3{
+	margin:.3rem;
+}
+
+main .site-title .btn{
+	margin:1.8rem;
+	background:var(--sky);
+}
+
+main .site-title .btn:hover{
+	background:transparent;
+	border:1px solid var(--white);
+	color:var(--white);
+}
+
+
+/*-------x--------Site Title-------x------*/
+
+/*----------Blog Carousel----------*/
+
+main .blog{
+	background:#f99185 solid ;
+	background-repeat:no-repeat;
+	background-position:right;
+	height:100vh;
+	width:100%; 
+}
+
+main .blog .blog-post{
+	padding-top:6rem ;
+}
+
+main .blog-post .blog-content{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width:80%;
+	margin:3rem 2rem;
+	box-shadow: 0 15px 20px rgb(0,0,0.2);
+}
+
+main .blog-content .blog-title{
+	padding:2rem 0; 
+}
+
+main .blog-content .btn-blog{
+	padding: .7rem 2rem;
+	background: var(--sky);
+	margin: .5rem;
+}
+
+main .blog-content span{
+	display:block;
+}
+
+section .container .owl-nav{
+	position: absolute;
+	top:0%;
+	margin:0 auto;
+	width:100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+	color:var(--text-gray);
+	background: transparent;
+	font-size: 2rem;
+}
+
+.owl-theme .owl-nav[class*='owl-']:hover{
+	background: transparent;
+	color:var(--text-grey);
+}
+
+.owl-theme .owl-nav[class*='owl-']{
+	outline: none;
+}
+
+/*-----x-----Blog Carousel-----x-----*/
+
+/*----------------Site Content-------------*/
+main .site-content{
+	display:grid;
+}
+
+
+/*----------------Site Content-------------*/
+
+
+
+/*------x------Main Content-------x-------*/
+
+
+/*          Viewport less that or equa to 750px    */
+
+@media only screen and (max-width:750px){
+	.nav .nav-menu, .nav .nav-items{
+		flex-direction:column;
+	}
+
+	.nav .toggle-collapse{
+		display:initial;
+	}
+}
+
+/*     x     Viewport less that or equa to 750px    x    */

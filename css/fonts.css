@@ -1,0 +1,88 @@
+/*font-family:Able*/
+@font-face{
+    font-family:Abel;
+    src:url("../fonts/Abel/Abel-Regular.ttf");
+}
+
+/*font-family:Anton*/
+
+@font-face{
+    font-family:Anton;
+    src:url("../fonts/Anton/Anton-Regular.ttf");
+}
+
+/*font-family:Allan*/
+
+@font-face{
+    font-family:Allan;
+    src:url("../fonts/Allan/Allan-Regular.ttf");
+}
+
+/*font-family:Cabin_Sketch*/
+
+@font-face{
+    font-family:Cabin_Sketch;
+    src:url("../fonts/Cabin_Sketch/CabinSketch-Regular.ttf");
+}
+
+/*font-family:Cookie*/
+
+@font-face{
+    font-family:Cookie;
+    src:url("../fonts/Cookie/Cookie-Regular.ttf");
+}
+
+/*font-family:Dancing_Script*/
+
+@font-face{
+    font-family:Dancing_Script;
+    src:url("../fonts/Dancing_Script/DancingScript-Regular.ttf");
+}
+ 
+/*font-family:Fredericka_the_Great*/
+
+@font-face{
+    font-family:Fredericka_the_Great;
+    src:url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+/*font-family:Great_Vibes*/
+
+@font-face{
+    font-family:Great_Vibes;
+    src:url("../fonts/Great_Vibes/GreatVibes-Regular.ttf");
+}
+ 
+/*font-family:Indie_Flower*/
+
+@font-face{
+    font-family:Indie_Flower;
+    src:url("../fonts/Indie_Flower/IndieFlower-Regular.ttf");
+}
+/*font-family:Josefin_Sans*/
+
+@font-face{
+    font-family:Josefin_Sans;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+
+/*font-family:Lakki_Reddy*/
+
+@font-face{
+    font-family:Lakki_Reddy;
+    src:url("../fonts/Lakki_Reddy/LakkiReddy-Regular.ttf");
+}
+
+/*font-family:Liu_Jian_Mao_Cao*/
+
+@font-face{
+    font-family:Liu_Jian_Mao_Cao;
+    src:url("../fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf");
+}
+
+/*font-family:Livvic*/
+
+@font-face{
+    font-family:Livvic;
+    src:url("../fonts/Livvic/Livvic-Regular.ttf");
+}
